@@ -20,6 +20,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   <jsp:include page="isLogin.jsp"></jsp:include>
   <body>
-    <marquee>This is my second web project.</marquee>
+    <marquee>This is my three web project.</marquee>
   </body>
 </html>
