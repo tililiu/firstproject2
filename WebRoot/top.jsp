@@ -20,6 +20,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   <jsp:include page="isLogin.jsp"></jsp:include>
   <body>
-    <marquee>This is my zns web project.</marquee>
+    <marquee>This is my credential web project.</marquee>
   </body>
 </html>
