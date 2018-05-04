@@ -25,9 +25,9 @@
 	<div class="container">
 		<ul class="nav nav-pills nav-stacked">
 			<li><a href="addstuinfo.jsp" target="main_right">录入学生信息</a></li>
-			<li><a href="checkstuinfo.jsp" target="main_right">查看学生信息</a></li>
-			<li><a href="modifystuinfo.jsp" target="main_right">修改学生信息</a></li>
-			<li><a href="deletestuinfo.jsp" target="main_right">删除学生信息</a></li>
+			<li><a href="student/displayStuServlet?osid=query" target="main_right">查看学生信息</a></li>
+			<li><a href="student/displayStuServlet?osid=modify" target="main_right">修改学生信息</a></li>
+			<li><a href="student/displayStuServlet?osid=delete" target="main_right">删除学生信息</a></li>
 			<li><a href="user/exitServlet" target="_top">退出</a></li>
 		</ul>
 	</div>

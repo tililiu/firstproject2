@@ -9,17 +9,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>My JSP 'top.jsp' starting page</title>
+    <title>My JSP 'modifyOneStuSuccess.jsp' starting page</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
 
   </head>
-  <jsp:include page="isLogin.jsp"></jsp:include>
+  
   <body>
-    <marquee>This is terryliu's web project.</marquee>
+    修改学生信息成功！！
   </body>
 </html>

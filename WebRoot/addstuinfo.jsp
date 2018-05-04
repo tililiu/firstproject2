@@ -23,7 +23,7 @@
 <body>
 	<div class="container">
 		<h3 class="text-center">学生信息录入</h3>
-		<form class="form-horizontal" action="addstuinfo_result.jsp"
+		<form class="form-horizontal" action="student/addStuInfoServlet"
 			method="post">
 			<div class="form-group">
 				<label for="nickname" class="col-sm-2 control-label">昵称</label>
@@ -60,9 +60,9 @@
 				<label for="major" class="col-sm-2 control-label">所学专业</label>
 				<div class="col-sm-10">
 					<select class="form-control" id="major" name="major">
-						<option value="xxyjxkx">信息与计算科学</option>
-						<option value="jsjkxyjs">计算机科学与技术</option>
-						<option value="wlgc">网络工程</option>
+						<option>信息与计算科学</option>
+						<option>计算机科学与技术</option>
+						<option>网络工程</option>
 					</select>
 				</div>
 			</div>
